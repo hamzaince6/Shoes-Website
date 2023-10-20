@@ -1,9 +1,3 @@
-/*!
- * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #63B3ED;
   --bs-indigo: #596CFF;
@@ -10581,6 +10575,11 @@ fieldset:disabled .btn {
 
 .bg-primary {
   background-color: #5e72e4 !important;
+  background-image: url("/assets/img/curved-images/curved0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
 .bg-secondary {
@@ -20596,7 +20595,6 @@ fieldset:disabled .btn {
 .btn.bg-gradient-danger:not(:disabled):not(.disabled).active,
 .btn.bg-gradient-danger:not(:disabled):not(.disabled):active,
 .show>.btn.bg-gradient-danger.dropdown-toggle {
-  color: color-yiq(#f5365c);
   background-color: #f5365c;
 }
 
